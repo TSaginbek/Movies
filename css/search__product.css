@@ -1,0 +1,26 @@
+.search__title {
+    color: #fff;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+.search__title:after {
+    content: '';
+    width: 150px;
+    height: 3px;
+    background: #FF0000;
+    display: block;
+
+    margin: 0px 0px 15px 0;
+}
+.product__navs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+.product__item {
+    margin: 0px 0px 15px 0px;
+}
+.product-item__img {
+    width: 95%;
+    display: block;
+}

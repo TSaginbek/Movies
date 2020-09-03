@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Header CSS -->
+    <link rel="stylesheet" href="css/header.css">
+    <!-- Search CSS -->
+    <link rel="stylesheet" href="css/search.css">
+    <!-- Recommendation CSS -->
+    <link rel="stylesheet" href="css/recommendation.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Reclama -->
+    <link rel="stylesheet" href="css/reclama.css">
+    <!-- Product CSS -->
+    <link rel="stylesheet" href="css/product.css">
+
+    <!-- Footer CSS -->
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>Movies - мы работаем для вас</title>
+</head>
+<body>
+    <!-- Шабка Сайта -->
+   <header class="header">
+    <div class="header__inner container">
+        <!-- Checkbox form hamburger -->
+        <input type="checkbox" name="" id="check">
+
+        <div class="logo-container">
+            <a href="index.html"><img src="img/logo/movies-logo.png" class="logo"></a>
+        </div>
+
+        <div class="nav-btn">
+            <div class="nav-links">
+                <ul>
+                    <li class="nav-link">
+                        <a href="index.html" class="header__link">Главная</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#" class="header__link">Фильмы<i class="fa fa-caret-down"></i></a>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="dropdown__link">
+                                    <a href="#">Боевики</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Военные</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Детективы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Для всей семьи</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Для детей</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Документальные</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Драмы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Исторические</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Комедии</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Криминал</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Мелодрамы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Мистические</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Приключения</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Фильмы-катастрофы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Триллеры</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Ужасы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Фантастика</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Фэнтези</a>
+                                </li>
+                                <div class="arrow"></div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#" class="header__link">Мультфильмы<i class="fa fa-caret-down"></i></a>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="dropdown__link">
+                                    <a href="#">Аниме</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Боевики</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Детективы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Для взрослых</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Для всей семьи</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Для детей</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Драмы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Зарубежные</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Комедии</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Мультфильмы-триллеры</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Мультфильмы-ужасы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">На казахском языке</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Мюзикл</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Полнометражные</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Приключения</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Развивающие</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Сериалы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Советские</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Спорт</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Фантастика</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Фэнтези</a>
+                                </li>
+                                <div class="arrow"></div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#" class="header__link">Сериалы<i class="fa fa-caret-down"></i></a>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="dropdown__link">
+                                    <a href="#">Детективы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Комедийные</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Военные</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Драмы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Русские</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Мелодрамы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Исторические</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Фантастические</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Криминал</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Зарубежные</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Боевики</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Фэнтези</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Приключения</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Триллеры</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Мистические</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Романтические</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Семьеиное</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Ужасы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Дорамы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Документальные</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Медицинские</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Биография</a>
+                                </li>
+                                <div class="arrow"></div>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <form class="nav-search" method="get">
+                <input type="text" placeholder="Введите название фильма, мультфильма или сериала . . ." name="q">
+                <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+            
+
+            <!-- Hamburger -->
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Content -->
+    <div class="content">
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Main -->
+            <div class="main">
+
+                <div class="recommendation">
+
+                    <!-- Просмотр фильмы -->
+                    <h1 class="product__title">
+                        Мстители: Финал
+                    </h1>
+                    <div class="product">
+                        <ul class="product__info">
+                            <li>2019, <a class="product__link" href="#">Фантастика</a>, <a class="product__link" href="#">Боевики</a>, <a class="product__link" href="#">Приключения</a> </li>
+                            <li>Время: 129мин, Качество: FullHD </li>
+                            <li>Актеры: Том Холланд, Сэмюэл Л. Джексон, Джейк Джилленхол, Зендея</li>
+                        </ul>
+
+                        <div class="product__movies">
+                            <div data-title="Тайна Коко" id="yohoho" style="width:100%%;height:370px;border:0;margin-bottom: 15px;padding:0;overflow:hidden;position:relative"><div id="yohoho-loading" style="display: none;"></div><iframe id="yohoho-iframe" frameborder="0" allowfullscreen="allowfullscreen" style="width: 100%; height: 370px; border: 0px; margin: 0px; padding: 0px; overflow: hidden; position: relative; display: block;" width="100%" height="370" src="https://api1599122089.placehere.link/embed/movie/123" class=""></iframe><div id="yohoho-buttons" style="right: -147px;"><div onclick="yo_player(&quot;https%3A%2F%2Fapi1599122089.placehere.link%2Fembed%2Fmovie%2F123&quot;, &quot;HD (720p)&quot;, &quot;&quot;, this, &quot;1&quot;)" data-event="1" data-page="1" data-iframe="https://api1599122089.placehere.link/embed/movie/123" data-quality="HD (720p)" data-translate="" class="yohoho-active" style="display: block;">1► 720P</div><div onclick="yo_player(&quot;https%3A%2F%2Fvid1599122089.vb17112tiffanyhayward.pw%2Fmovie%2F6c4bc88cc548ac72eb93712c1f0d1f97%2Fiframe&quot;, &quot;HDRip&quot;, &quot;Дубляж [Лицензия]&quot;, this, &quot;1&quot;)" data-event="2" data-page="1" data-iframe="https://vid1599122089.vb17112tiffanyhayward.pw/movie/6c4bc88cc548ac72eb93712c1f0d1f97/iframe" data-quality="HDRip" data-translate="Дубляж [Лицензия]" style="display: block;">2► HDRIP ДУБЛЯЖ</div><div onclick="yo_player(&quot;https%3A%2F%2Fyo.bazon.site%2Fembed%2Fee89e0fdb000fc4092768adca9755ce1&quot;, &quot;4K UHD&quot;, &quot;Дубляж&quot;, this, &quot;1&quot;)" data-event="3" data-page="1" data-iframe="https://yo.bazon.site/embed/ee89e0fdb000fc4092768adca9755ce1" data-quality="4K UHD" data-translate="Дубляж" style="display: block;">3► 4K UHD ДУБЛЯЖ</div><div onclick="yo_player(&quot;https%3A%2F%2Fstart.u-cdn.top%2Fstart%2F4c384192c35245c7d527bc9845673237%2Fedfbe1afcf9246bb0d40eb4d8027d90f&quot;, &quot;WEB-DL:1080&quot;, &quot;Дублированный&quot;, this, &quot;1&quot;)" data-event="4" data-page="1" data-iframe="https://start.u-cdn.top/start/4c384192c35245c7d527bc9845673237/edfbe1afcf9246bb0d40eb4d8027d90f" data-quality="WEB-DL:1080" data-translate="Дублированный" style="display: block;">4► WEB-DL:1080 ДУБЛЯЖ</div><div onclick="yo_player(&quot;https%3A%2F%2Fbayas.allohalive.com%2F%3Fname%3D%25D0%25A2%25D0%25B0%25D0%25B9%25D0%25BD%25D0%25B0%2B%25D0%259A%25D0%25BE%25D0%25BA%25D0%25BE%26token%3D80494ac9ff34db718c70823b026b04&quot;, &quot;BDRip&quot;, &quot;Дублированный&quot;, this, &quot;1&quot;)" data-event="5" data-page="1" data-iframe="https://bayas.allohalive.com/?name=%D0%A2%D0%B0%D0%B9%D0%BD%D0%B0+%D0%9A%D0%BE%D0%BA%D0%BE&amp;token=80494ac9ff34db718c70823b026b04" data-quality="BDRip" data-translate="Дублированный" style="display: block;">5► BDRIP ДУБЛЯЖ</div><div onclick="yo_player(&quot;%2F%2F6657.svetacdn.in%2FkLShoChnGWEE%2Fmovie%2F14467&quot;, &quot;webdl&quot;, &quot;Профессиональный (многоголосый закадровый) (GreenРай Studio)&quot;, this, &quot;1&quot;)" data-event="6" data-page="1" data-iframe="//6657.svetacdn.in/kLShoChnGWEE/movie/14467" data-quality="webdl" data-translate="Профессиональный (многоголосый закадровый) (GreenРай Studio)" style="display: block;">6► WEBDL ПРОФ.</div></div></div>
+                            <div id="yohoho-kinopoisk" data-kinopoisk="401522"></div>
+                            <div id="yohoho-trailer" data-player="trailer" data-title="Стекло"></div>
+                            <div id="yohoho-torrent" data-player="torrent" data-title="Дэдпул 2"></div>
+                            <div id="yohoho-en" data-language="en" data-kinopoisk="251733"></div>
+                            <div id="yohoho-videospider" data-player="videospider" data-imdb="0499549"></div>
+                            <div id="yohoho-custom" data-player="1 сезон 4 серия //rutube.ru/play/embed/12846121, 1 сезон 3 серия //rutube.ru/play/embed/12846122, 1 сезон 2 серия //rutube.ru/play/embed/12846123, 1 сезон 1 серия //rutube.ru/play/embed/12846124" data-kinopoisk="581653" data-title="Фиксики" data-button_limit="3"></div>
+                        </div>
+
+                        <!-- Reclama -->
+                        <div class="reclama">
+                            <div class="rectangle__min">
+                                
+                            </div>
+                        </div>
+                        <!-- End Reclama -->
+
+                        <p class="product__about">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, dignissimos. Accusamus quam harum laudantium maxime laboriosam laborum vitae fugit praesentium corporis aperiam quis illo nisi, nesciunt dolores, suscipit minus molestiae. Recusandae quis impedit, ducimus quia quasi tenetur maiores aspernatur a porro architecto sunt doloribus necessitatibus, sit repudiandae ab nostrum nihil cupiditate similique in corrupti officia illum! Dolorem exercitationem molestias pariatur! Maiores veniam officia velit labore laudantium, illum reprehenderit, quos odit nam qui nihil dicta sint magni laborum non, provident quae ut incidunt! Dolorum porro molestiae nostrum ullam aperiam odio omnis, distinctio modi quam nam minus cum est aliquam, perspiciatis sed! Pariatur minima, a officia explicabo ad qui blanditiis? A nobis accusamus, veritatis totam sunt possimus expedita distinctio ad itaque voluptatum, delectus enim architecto labore deleniti quaerat mollitia sequi quo, ullam quos. Saepe veniam qui eaque autem eius suscipit nulla dolor reprehenderit repudiandae dolorem ipsam delectus ex ratione quisquam reiciendis blanditiis tenetur, a minima magnam soluta! Beatae aut facilis aspernatur, hic eum omnis dolore est amet? Officiis animi velit maiores accusantium quaerat incidunt fuga excepturi aliquid, sit, autem dolorem veniam pariatur quae et iure expedita nulla illum. Laborum eum veritatis quo maxime aliquid soluta, autem ipsam cum, aspernatur dicta quibusdam reiciendis.
+                        </p>
+                    </div>
+                    <!-- End Просмотр фильмы -->
+                </div>
+
+                <!-- Main menu -->
+                <div class="main__menu">
+                    <!-- Title + Line -->
+                    <h1 class="title__center">Жанры</h1>
+                    <div class="category">
+                        <div class="category__item">
+                            <p class="category__title">
+                                Флиьмы
+                            </p>
+                            <ul class="category__ul">
+                                <li class="category__li"><a href="#" class="category__link">Топ100</a></li>
+                                <li class="category__li"><a href="#" class="category__link">Рекомендации</a></li>
+                                <li class="category__li"><a href="#" class="category__link">Популярное фильмы</a></li>
+                                <li class="category__li"><a href="#" class="category__link">Ожидаемые фильмы</a></li>
+                                <li class="category__li"><a href="#" class="category__link">Жанры</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="category__item">
+                            <p class="category__title">
+                                Мультфильмы
+                            </p>
+                            <ul class="category__ul">
+                                <li class="category__li"><a href="#" class="category__link">Топ50</a></li>
+                                <li class="category__li"><a href="#" class="category__link">Для всех возростов</a></li>
+                                <li class="category__li"><a href="#" class="category__link">Мультфильмы Disney</a></li>
+                                <li class="category__li"><a href="#" class="category__link">Сериальные</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="category__item">
+                            <p class="category__title">
+                                Сериалы
+                            </p>
+                            <ul class="category__ul">
+                                <li class="category__li"><a href="#" class="category__link">Топ25</a></li>
+                                <li class="category__li"><a href="#" class="category__link">Популярное</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Reclama -->
+                    <div class="reclama">
+                        <div class="square">
+                            
+                        </div>
+
+                        <div class="square">
+                            
+                        </div>
+                    </div>
+                    <!-- End Reclama -->
+                </div>
+                <!-- End Main Menu -->
+
+            <!-- Main -->
+            </div>
+
+        </div>
+        <!-- End Container -->
+
+    <!-- End Content -->
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <!-- Container -->
+        <div class="container">
+
+            <div class="footer__nav">
+                <div class="footer__inner">
+                    <h3 class="footer__title">
+                        Фильмы
+                    </h3>
+                    <ul class="footer-inner__ul">
+                        <li class="footer-inner__li">
+                            <a href="#" class="footer__link">Топ100</a>
+                            <a href="#" class="footer__link">Рекомендации</a>
+                            <a href="#" class="footer__link">Популярное фильмы</a>
+                            <a href="#" class="footer__link">Ожидаемые фильмы</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__inner">
+                    <h3 class="footer__title">
+                        Мультфильмы
+                    </h3>
+                    <ul class="footer-inner__ul">
+                        <li class="footer-inner__li">
+                            <a href="#" class="footer__link">Топ150</a>
+                        </li>
+                        <li class="footer-inner__li">
+                            <a href="#" class="footer__link">Мультфильмы Disney</a>
+                        </li>
+                        <li class="footer-inner__li">
+                            <a href="#" class="footer__link">Популярное мультфильмы</a>
+                        </li>
+                        <li class="footer-inner__li">
+                            <a href="#" class="footer__link">Рекомендуемые мультфильмы</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__inner">
+                    <h3 class="footer__title">
+                        Присоединяйтесь:
+                    </h3>
+                    <ul class="footer-inner__ul">
+                        <li class="footer-inner__social">
+                            <a href="#" class="footer__link"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="footer__link"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#" class="footer__link"><i class="fab fa-telegram"></i></a>
+                            <a href="#" class="footer__link"><i class="fab fa-whatsapp-square"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <br>
+            </div>
+
+        </div>
+        <!-- End Container -->
+
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Phone Footer -->
+    <footer class="phone__footer">
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Phone Footer Nav -->
+            <div class="phone-footer__nav">
+
+                <!-- Items -->
+                <div class="phone-footer__items">
+                    <a class="items__photo" href="#"><i class="fas fa-home"></i></a>
+                    <a class="items__link" href="#">Главная</a>
+                </div>
+
+                <div class="phone-footer__items">
+                    <a class="items__photo" href="#"><i class="fas fa-video"></i></a>
+                    <a class="items__link" href="#">Жанры</a>
+                </div>
+
+                <div class="phone-footer__items">
+                    <a class="items__photo" href="#"><i class="fas fa-tasks"></i></i></a>
+                    <a class="items__link" href="#">Еще</a>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- End Container -->
+
+    </footer>
+    <!-- End Phone Footer -->
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!-- JS HEADER -->
+    <script src="js/header.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.sub-menu').click(function(){
+                $(this).siblings().removeClass('active');
+                $(this).toggleClass('active');
+            })
+        })
+    </script>
+</body>
+</html>

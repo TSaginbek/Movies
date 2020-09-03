@@ -1,0 +1,38 @@
+.product__title {
+    color: #fff;
+    font-size: 28px;
+    font-family: sans-serif;
+
+    text-align: center;
+}
+.product__title:after {
+    content: '';
+    width: 150px;
+    height: 3px;
+    background: #FF0000;
+    display: block;
+
+    margin: 5px auto;
+}
+.product__info {
+    list-style: none;
+    max-width: 95%;
+    font-size: 15px;
+    margin: 15px 0;
+    color: #f1f1f1;
+}
+.product__link {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 15px;
+}
+.product__link:hover {
+    color: #FF0000;
+}
+.product__about {
+    color: #f1f1f1;
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 0;
+    margin-bottom: 15px;
+}

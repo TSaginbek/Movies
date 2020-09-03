@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Header CSS -->
+    <link rel="stylesheet" href="css/header.css">
+    <!-- Search CSS -->
+    <link rel="stylesheet" href="css/search.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Slider Main CSS -->
+    <link rel="stylesheet" href="css/slider.css">
+    <!-- Recommendation CSS -->
+    <link rel="stylesheet" href="css/recommendation.css">
+    <!-- Reclama -->
+    <link rel="stylesheet" href="css/reclama.css">
+
+    <!-- Footer CSS -->
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>Movies - мы работаем для вас</title>
+</head>
+<body>
+   <!-- Шабка Сайта -->
+   <header class="header">
+    <div class="header__inner container">
+        <!-- Checkbox form hamburger -->
+        <input type="checkbox" name="" id="check">
+
+        <div class="logo-container">
+            <a href="#"><img src="img/logo/movies-logo.png" class="logo"></a>
+        </div>
+
+        <div class="nav-btn">
+            <div class="nav-links">
+                <ul>
+                    <li class="nav-link">
+                        <a href="#" class="header__link">Главная</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#" class="header__link">Фильмы<i class="fa fa-caret-down"></i></a>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="dropdown__link">
+                                    <a href="#">Боевики</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Военные</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Детективы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Для всей семьи</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Для детей</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Документальные</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Драмы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Исторические</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Комедии</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Криминал</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Мелодрамы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Мистические</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Приключения</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Фильмы-катастрофы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Триллеры</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Ужасы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Фантастика</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Фэнтези</a>
+                                </li>
+                                <div class="arrow"></div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#" class="header__link">Мультфильмы<i class="fa fa-caret-down"></i></a>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="dropdown__link">
+                                    <a href="#">Аниме</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Боевики</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Детективы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Для взрослых</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Для всей семьи</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Для детей</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Драмы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Зарубежные</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Комедии</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Мультфильмы-триллеры</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Мультфильмы-ужасы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">На казахском языке</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Мюзикл</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Полнометражные</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Приключения</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Развивающие</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Сериалы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Советские</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Спорт</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Фантастика</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Фэнтези</a>
+                                </li>
+                                <div class="arrow"></div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#" class="header__link">Сериалы<i class="fa fa-caret-down"></i></a>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="dropdown__link">
+                                    <a href="#">Детективы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Комедийные</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Военные</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Драмы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Русские</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Мелодрамы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Исторические</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Фантастические</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Криминал</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Зарубежные</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Боевики</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Фэнтези</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Приключения</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Триллеры</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Мистические</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Романтические</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Семьеиное</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Ужасы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Дорамы</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Документальные</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Медицинские</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="#">Биография</a>
+                                </li>
+                                <div class="arrow"></div>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <form class="nav-search" method="get">
+                <input type="text" placeholder="Введите название фильма, мультфильма или сериала . . ." name="q">
+                <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+            
+
+            <!-- Hamburger -->
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="movies">
+        <div class="container">
+            
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        
+        <!-- Slider 1280x450 -->
+        <div class="slider">
+            <div class="slider__item">
+                <a href="#">
+                    <img src="img/slider/1.jpeg" alt="">
+                </a>
+            </div>
+
+            <div class="slider__item">
+                <a href="#">
+                    <img src="img/slider/2.jpeg" alt="">
+                </a>
+            </div>
+        </div>
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Search -->
+            <form class="search__form" method="get">
+                <input type="text" placeholder="Введите название фильма, мультфильма или сериала . . ." name="q">
+                <button class="search__btn" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <!-- End Search -->
+
+            <!-- Main -->
+            <div class="main">
+
+                <div class="recommendation">
+
+                    <!-- Рекомендуеммые фильмы -->
+                    <div class="recommendation__item">
+                        <h1 class="main__title">
+                            Рекомендуеммые фильмы
+                        </h1>
+                        <div class="recommendation__slider">
+                            <div class="recommendation-slider__nav">
+                                <a href="product.html"><img src="img/movies/Мстители: Финал.jpg" class="recommendation__img"></a>
+                                <a href="#" class="recommendation-slider__title">Мстители: Финал</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Джуманджи Зов джунглей.png" class="recommendation__img"></a>
+                                <a href="#" class="recommendation-slider__title">Джуманджи Зов джунглей</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Человек-Паук: Вдали от дома.jpg" class="recommendation__img"></a>
+                                <span class="choice">
+                                    выбор movies
+                                </span>
+                                <a href="#" class="recommendation-slider__title">Человек-Паук: Вдали от дома</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Король_Лев.jpg" class="recommendation__img"></a>
+                                <a href="#" class="recommendation-slider__title">Король Лев</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Аладдин.png" class="recommendation__img"></a>
+                                <a href="#" class="recommendation-slider__title">Аладдин</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Домовой.png" class="recommendation__img"></a>
+                                <a href="#" class="recommendation-slider__title">Домовой</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Рекомендуеммые фильмы -->
+
+                    <!-- Мультфильмы для всех -->
+                    <div class="recommendation__item">
+                        <h1 class="main__title">
+                            Мультфильмы для всех
+                        </h1>
+                        <div class="recommendation__slider">
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Балерина.jpg" class="recommendation__img"></a>
+                                <span class="choice">
+                                    выбор movies
+                                </span>
+                                <a href="#" class="recommendation-slider__title">Балерина</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Ральф против интернета.png" class="recommendation__img"></a>
+                                <a href="#" class="recommendation-slider__title">Ральф против интернета</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Сила девяти богов.png" class="recommendation__img"></a>
+                                <span class="choice">
+                                    выбор movies
+                                </span>
+                                <a href="#" class="recommendation-slider__title">Сила девяти Богов</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Холодное сердце 2.png" class="recommendation__img"></a>
+                                <a href="#" class="recommendation-slider__title">Холодное сердце 2</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Человек паук через вселение.jpg" class="recommendation__img"></a>
+                                <a href="#" class="recommendation-slider__title">Человек-Паук через вселение</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Тайна Коко.png" class="recommendation__img"></a>
+                                <span class="choice">
+                                    выбор movies
+                                </span>
+                                <a href="#" class="recommendation-slider__title">Тайна Коко</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Мультфильмы для всех -->
+                
+                    <!-- Семейное фильмы -->
+                    <div class="recommendation__item">
+                        <h1 class="main__title">
+                            Семейное фильмы
+                        </h1>
+                        <div class="recommendation__slider">
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Шазам!.jpg" class="recommendation__img">
+                                    <span class="choice">
+                                        выбор movies
+                                    </span>
+                                </a>
+                                <a href="#" class="recommendation-slider__title">Шазам!</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Туннель_ Опасно для жизни.png" class="recommendation__img"></a>
+                                <a href="#" class="recommendation-slider__title">Туннель Опасно для жизни</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Гонка.jpg" class="recommendation__img"></a>
+                                <span class="choice">
+                                    выбор movies
+                                </span>
+                                <a href="#" class="recommendation-slider__title">Гонка</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Альфа.png" class="recommendation__img"></a>
+                                <span class="choice">
+                                    выбор movies
+                                </span>
+                                <a href="#" class="recommendation-slider__title">Альфа</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Гарфилд.jpg" class="recommendation__img"></a>
+                                <a href="#"  class="recommendation-slider__title">Гарфилд</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Аладдин.png" class="recommendation__img"></a>
+                                <a href="#" class="recommendation-slider__title">Аладдин</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Семейное фильмы -->
+
+                    <!-- Криминальные боевики -->
+                    <div class="recommendation__item">
+                        <h1 class="main__title">
+                            Криминальные боевики
+                        </h1>
+                        <div class="recommendation__slider">
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Шпион.jpg" class="recommendation__img"></a>
+                                <a href="#" class="recommendation-slider__title">Шпион</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Джокер.jpg" class="recommendation__img"></a>
+                                <a href="#" class="recommendation-slider__title">Джокер</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Шпион по соседству.jpg" class="recommendation__img"></a>
+                                <span class="choice">
+                                    выбор movies
+                                </span>
+                                <a href="#" class="recommendation-slider__title">Шпион по соседству</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Need for Speed: Жажда скорости.jpg" class="recommendation__img"></a>
+                                <a href="#" class="recommendation-slider__title">Need for Speed: Жажда скорости</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Джон Уик 3.jpg" class="recommendation__img"></a>
+                                <a href="#"  class="recommendation-slider__title">Джон Уик 3</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Апгрейд.png" class="recommendation__img"></a>
+                                <span class="choice">
+                                    выбор movies
+                                </span>
+                                <a href="#" class="recommendation-slider__title">Апгрейд</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Криминальные боевики -->
+
+                    <!-- Мистические фильмы -->
+                    <div class="recommendation__item">
+                        <h1 class="main__title">
+                                Мистические фильмы
+                        </h1>
+                        <div class="recommendation__slider">
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Оно.jpg" class="recommendation__img"></a>
+                                <a href="#" class="recommendation-slider__title">Оно</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Не выходи из дома.jpeg" class="recommendation__img"></a>
+                                <a href="#" class="recommendation-slider__title">Не выходи из дома</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Проклятый лес.png" class="recommendation__img"></a>
+                                <a href="#" class="recommendation-slider__title">Проклятый лес</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Тельма.png" class="recommendation__img"></a>
+                                <a href="#" class="recommendation-slider__title">Тельма</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Слендермен.png" class="recommendation__img"></a>
+                                <a href="#"  class="recommendation-slider__title">Слендермен</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Мистические фильмы -->
+                    
+                    <!-- Военные фильмы -->
+                    <div class="recommendation__item">
+                        <h1 class="main__title">
+                            Военные фильмы
+                        </h1>
+                        <div class="recommendation__slider">
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Т-34.jpg" class="recommendation__img"></a>
+                                <span class="choice">
+                                    выбор movies
+                                </span>
+                                <a href="#" class="recommendation-slider__title">Т-34</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Ржев.jpeg" class="recommendation__img"></a>
+                                <a href="#" class="recommendation-slider__title">Ржев</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/По соображениям совести.jpg" class="recommendation__img"></a>
+                                <span class="choice">
+                                    выбор movies
+                                </span>
+                                <a href="#" class="recommendation-slider__title">По соображениям совести</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Балканский рубеж.jpg" class="recommendation__img"></a>
+                                <a href="#" class="recommendation-slider__title">Балканский рубеж</a>
+                            </div>
+
+                            <div class="recommendation-slider__nav">
+                                <a href="#"><img src="img/movies/Калашников .png" class="recommendation__img"></a>
+                                <span class="choice">
+                                    выбор movies
+                                </span>
+                                <a href="#"  class="recommendation-slider__title">Калашников</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Военные фильмы -->
+                </div>
+
+                <!-- Main menu -->
+                <div class="main__menu">
+                    <!-- Title + Line -->
+                    <h1 class="title__center">Жанры</h1>
+                    <div class="category">
+                        <div class="category__item">
+                            <p class="category__title">
+                                Флиьмы
+                            </p>
+                            <ul class="category__ul">
+                                <li class="category__li"><a href="#" class="category__link">Топ100</a></li>
+                                <li class="category__li"><a href="#" class="category__link">Рекомендации</a></li>
+                                <li class="category__li"><a href="#" class="category__link">Популярное фильмы</a></li>
+                                <li class="category__li"><a href="#" class="category__link">Ожидаемые фильмы</a></li>
+                                <li class="category__li"><a href="#" class="category__link">Жанры</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="category__item">
+                            <p class="category__title">
+                                Мультфильмы
+                            </p>
+                            <ul class="category__ul">
+                                <li class="category__li"><a href="#" class="category__link">Топ50</a></li>
+                                <li class="category__li"><a href="#" class="category__link">Для всех возростов</a></li>
+                                <li class="category__li"><a href="#" class="category__link">Мультфильмы Disney</a></li>
+                                <li class="category__li"><a href="#" class="category__link">Сериальные</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="category__item">
+                            <p class="category__title">
+                                Сериалы
+                            </p>
+                            <ul class="category__ul">
+                                <li class="category__li"><a href="#" class="category__link">Топ25</a></li>
+                                <li class="category__li"><a href="#" class="category__link">Популярное</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <!-- Reclama -->
+                    <div class="reclama">
+                        <div class="rectangle__max">
+                            
+                        </div>
+                    </div>
+                    <!-- End Reclama -->
+                </div>
+                <!-- End Main Menu -->
+
+            <!-- Main -->
+            </div>
+
+        </div>
+        <!-- End Container -->
+
+    <!-- End Content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <!-- Container -->
+        <div class="container">
+
+            <div class="footer__nav">
+                <div class="footer__inner">
+                    <h3 class="footer__title">
+                        Фильмы
+                    </h3>
+                    <ul class="footer-inner__ul">
+                        <li class="footer-inner__li">
+                            <a href="#" class="footer__link">Топ100</a>
+                            <a href="#" class="footer__link">Рекомендации</a>
+                            <a href="#" class="footer__link">Популярное фильмы</a>
+                            <a href="#" class="footer__link">Ожидаемые фильмы</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__inner">
+                    <h3 class="footer__title">
+                        Мультфильмы
+                    </h3>
+                    <ul class="footer-inner__ul">
+                        <li class="footer-inner__li">
+                            <a href="#" class="footer__link">Топ150</a>
+                        </li>
+                        <li class="footer-inner__li">
+                            <a href="#" class="footer__link">Мультфильмы Disney</a>
+                        </li>
+                        <li class="footer-inner__li">
+                            <a href="#" class="footer__link">Популярное мультфильмы</a>
+                        </li>
+                        <li class="footer-inner__li">
+                            <a href="#" class="footer__link">Рекомендуемые мультфильмы</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__inner">
+                    <h3 class="footer__title">
+                        Присоединяйтесь:
+                    </h3>
+                    <ul class="footer-inner__ul">
+                        <li class="footer-inner__social">
+                            <a href="#" class="footer__link"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="footer__link"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#" class="footer__link"><i class="fab fa-telegram"></i></a>
+                            <a href="#" class="footer__link"><i class="fab fa-whatsapp-square"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <br>
+            </div>
+
+        </div>
+        <!-- End Container -->
+
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Phone Footer -->
+    <footer class="phone__footer">
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Phone Footer Nav -->
+            <div class="phone-footer__nav">
+
+                <!-- Items -->
+                <div class="phone-footer__items">
+                    <a class="items__photo" href="#"><i class="fas fa-home"></i></a>
+                    <a class="items__link" href="#">Главная</a>
+                </div>
+
+                <div class="phone-footer__items">
+                    <a class="items__photo" href="#"><i class="fas fa-video"></i></a>
+                    <a class="items__link" href="#">Жанры</a>
+                </div>
+
+                <div class="phone-footer__items">
+                    <a class="items__photo" href="#"><i class="fas fa-tasks"></i></i></a>
+                    <a class="items__link" href="#">Еще</a>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- End Container -->
+
+    </footer>
+    <!-- End Phone Footer -->
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!-- Slick JS -->
+    <script src="js/slick.min.js"></script>
+    <!-- JS HEADER -->
+    <script src="js/header.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.sub-menu').click(function(){
+                $(this).siblings().removeClass('active');
+                $(this).toggleClass('active');
+            })
+        })
+    </script>
+    <!-- Slider JS -->
+    <script src="js/slider.js"></script>
+    <!-- Recommendation Product Slider JS -->
+    <script src="js/recommendation-slider.js"></script>
+</body>
+</html>

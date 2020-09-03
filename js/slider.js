@@ -1,0 +1,30 @@
+$(document).ready(function(){
+    $('.slider').slick({
+        arrows:true,
+        adaptiveHeight:true,
+        slidesToShow:1,
+        slidesToScroll:1,
+        speed:1000,
+        easing:'_linear_',
+        infinite:true,
+        initialSlide:0,
+        autoplay:true,
+        autoplaySpeed:8000,
+        pauseOnFocuse:true,
+        pauseOnHover:true,
+        pauseOnDotsHover:true,
+        touchThreshold:1,
+        touchMove:true,
+        waitForAnimate:true,
+        centerMode:true,
+        variableWidth:true,
+        responsive:[
+            {
+                breakpoint: 850,
+                settings: {
+                    arrows:false,
+                }
+            }
+        ]
+    });
+});

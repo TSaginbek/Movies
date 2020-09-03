@@ -1,0 +1,45 @@
+.reclama {
+    width: 100%;
+    height: auto;
+}
+/* Max 350px x 1000px */
+.rectangle__max {
+    width: 100%;
+    height: 1000px;
+    margin: 15px 0;
+
+    background: #fff;
+}
+/* Max 100% x 150px */
+.rectangle__min {
+    width: 100%;
+    height: 150px;
+    margin: 15px 0;
+
+    background: #fff;
+}
+/* Max 350px 350px */
+.square {
+    width: 100%;
+    height: 300px;
+    margin: 15px 0;
+
+    background: #fff;
+}
+.reclama-three__square {
+    display: flex;
+    justify-content: space-between;
+}
+.square__min {
+    width: 300px;
+    height: 300px;
+    margin: 15px 10px 10px 0px;
+
+    background: #fff;
+}
+
+@media(max-width:1200px) {
+    .rectangle__max {
+        display: none;
+    }
+}
